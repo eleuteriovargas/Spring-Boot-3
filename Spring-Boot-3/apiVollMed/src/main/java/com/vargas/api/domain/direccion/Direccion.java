@@ -1,6 +1,6 @@
-package com.vargas.api.direccion;
+package com.vargas.api.domain.direccion;
 
-import com.vargas.api.dto.DatosDireccion;
+import com.vargas.api.domain.dto.DatosDireccion;
 import jakarta.persistence.Embeddable;
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.vargas.api.dto;
+package com.vargas.api.domain.dto;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;

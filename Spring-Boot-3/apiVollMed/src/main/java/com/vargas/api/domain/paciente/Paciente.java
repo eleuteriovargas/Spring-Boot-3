@@ -1,11 +1,10 @@
-package com.vargas.api.paciente;
+package com.vargas.api.domain.paciente;
 
-import com.vargas.api.direccion.Direccion;
+import com.vargas.api.domain.direccion.Direccion;
 
 
-import com.vargas.api.dto.DatosActualizacionMedico;
-import com.vargas.api.dto.DatosActualizacionPaciente;
-import com.vargas.api.dto.DatosRegistroPaciente;
+import com.vargas.api.domain.dto.DatosActualizacionPaciente;
+import com.vargas.api.domain.dto.DatosRegistroPaciente;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

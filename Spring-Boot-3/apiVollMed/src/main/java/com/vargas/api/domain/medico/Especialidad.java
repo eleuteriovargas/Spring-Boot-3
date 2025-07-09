@@ -1,4 +1,4 @@
-package com.vargas.api.medico;
+package com.vargas.api.domain.medico;
 
 public enum Especialidad {
     ORTOPEDIA,

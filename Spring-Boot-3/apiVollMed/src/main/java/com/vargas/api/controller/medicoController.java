@@ -1,11 +1,11 @@
 package com.vargas.api.controller;
 
-import com.vargas.api.dto.DatosActualizacionMedico;
-import com.vargas.api.dto.DatosDetalleMedico;
-import com.vargas.api.dto.DatosListaMedico;
-import com.vargas.api.dto.DatosRegistroMedico;
-import com.vargas.api.medico.Medico;
-import com.vargas.api.medico.MedicoRepository;
+import com.vargas.api.domain.dto.DatosActualizacionMedico;
+import com.vargas.api.domain.dto.DatosDetalleMedico;
+import com.vargas.api.domain.dto.DatosListaMedico;
+import com.vargas.api.domain.dto.DatosRegistroMedico;
+import com.vargas.api.domain.medico.Medico;
+import com.vargas.api.domain.medico.MedicoRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
