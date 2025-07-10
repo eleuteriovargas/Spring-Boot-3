@@ -1,4 +1,4 @@
-package com.vargas.api.infra;
+package com.vargas.api.infra.exceptions;
 
 
 import jakarta.persistence.EntityNotFoundException;
