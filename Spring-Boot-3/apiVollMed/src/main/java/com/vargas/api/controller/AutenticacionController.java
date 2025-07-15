@@ -25,8 +25,8 @@ public class AutenticacionController {
     private AuthenticationManager manager;
 
     @PostMapping
-    public ResponseEntity iniciarSesion(@RequestBody @Valid DatosAutenticacion datos){
-        try{
+    public ResponseEntity iniciarSesion(@RequestBody @Valid DatosAutenticacion datos) {
+        try {
             var authenticationToken = new UsernamePasswordAuthenticationToken(datos.login(), datos.contrasena());
             var autenticacion = manager.authenticate(authenticationToken);
 
