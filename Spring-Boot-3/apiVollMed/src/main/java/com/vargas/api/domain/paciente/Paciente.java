@@ -3,8 +3,6 @@ package com.vargas.api.domain.paciente;
 import com.vargas.api.domain.direccion.Direccion;
 
 
-import com.vargas.api.domain.dto.DatosActualizacionPaciente;
-import com.vargas.api.domain.dto.DatosRegistroPaciente;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

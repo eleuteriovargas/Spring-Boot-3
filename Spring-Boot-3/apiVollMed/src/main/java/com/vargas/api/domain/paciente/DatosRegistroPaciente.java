@@ -1,5 +1,6 @@
-package com.vargas.api.domain.dto;
+package com.vargas.api.domain.paciente;
 
+import com.vargas.api.domain.direccion.DatosDireccion;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

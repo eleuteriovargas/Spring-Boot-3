@@ -1,7 +1,6 @@
-package com.vargas.api.domain.dto;
+package com.vargas.api.domain.paciente;
 
 import com.vargas.api.domain.direccion.Direccion;
-import com.vargas.api.domain.paciente.Paciente;
 
 public record DatosDetallePaciente(
         String nombre,

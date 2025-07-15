@@ -1,6 +1,4 @@
-package com.vargas.api.domain.dto;
-
-import com.vargas.api.domain.paciente.Paciente;
+package com.vargas.api.domain.paciente;
 
 public record DatosListaPaciente(
         Long id,

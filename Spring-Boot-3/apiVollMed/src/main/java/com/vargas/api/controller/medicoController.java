@@ -1,9 +1,9 @@
 package com.vargas.api.controller;
 
-import com.vargas.api.domain.dto.DatosActualizacionMedico;
-import com.vargas.api.domain.dto.DatosDetalleMedico;
-import com.vargas.api.domain.dto.DatosListaMedico;
-import com.vargas.api.domain.dto.DatosRegistroMedico;
+import com.vargas.api.domain.medico.DatosActualizacionMedico;
+import com.vargas.api.domain.medico.DatosDetalleMedico;
+import com.vargas.api.domain.medico.DatosListaMedico;
+import com.vargas.api.domain.medico.DatosRegistroMedico;
 import com.vargas.api.domain.medico.Medico;
 import com.vargas.api.domain.medico.MedicoRepository;
 import jakarta.validation.Valid;

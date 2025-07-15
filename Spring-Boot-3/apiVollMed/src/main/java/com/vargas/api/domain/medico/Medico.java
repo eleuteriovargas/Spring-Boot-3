@@ -1,8 +1,6 @@
 package com.vargas.api.domain.medico;
 
 import com.vargas.api.domain.direccion.Direccion;
-import com.vargas.api.domain.dto.DatosActualizacionMedico;
-import com.vargas.api.domain.dto.DatosRegistroMedico;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.*;

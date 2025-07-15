@@ -1,4 +1,4 @@
-package com.vargas.api.domain.dto;
+package com.vargas.api.domain.direccion;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

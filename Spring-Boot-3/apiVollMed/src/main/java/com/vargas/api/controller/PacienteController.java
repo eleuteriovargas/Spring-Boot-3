@@ -1,9 +1,9 @@
 package com.vargas.api.controller;
 
-import com.vargas.api.domain.dto.DatosActualizacionPaciente;
-import com.vargas.api.domain.dto.DatosDetallePaciente;
-import com.vargas.api.domain.dto.DatosListaPaciente;
-import com.vargas.api.domain.dto.DatosRegistroPaciente;
+import com.vargas.api.domain.paciente.DatosActualizacionPaciente;
+import com.vargas.api.domain.paciente.DatosDetallePaciente;
+import com.vargas.api.domain.paciente.DatosListaPaciente;
+import com.vargas.api.domain.paciente.DatosRegistroPaciente;
 import com.vargas.api.domain.paciente.Paciente;
 import com.vargas.api.domain.paciente.PacienteRepository;
 import jakarta.validation.Valid;

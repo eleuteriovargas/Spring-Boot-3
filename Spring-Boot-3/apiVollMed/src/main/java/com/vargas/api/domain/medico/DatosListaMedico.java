@@ -1,7 +1,4 @@
-package com.vargas.api.domain.dto;
-
-import com.vargas.api.domain.medico.Especialidad;
-import com.vargas.api.domain.medico.Medico;
+package com.vargas.api.domain.medico;
 
 public record DatosListaMedico(
         Long id,
