@@ -6,6 +6,7 @@ import com.vargas.api.domain.medico.DatosListaMedico;
 import com.vargas.api.domain.medico.DatosRegistroMedico;
 import com.vargas.api.domain.medico.Medico;
 import com.vargas.api.domain.medico.MedicoRepository;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -18,6 +19,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
 @RequestMapping("/medicos")
+@SecurityRequirement(name = "bearer-key")
 public class medicoController {
 
     @Autowired
